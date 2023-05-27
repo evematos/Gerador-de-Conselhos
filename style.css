@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+:root {
+    font-size: 16px;
+    --main-color: #2b2033;
+    --second-color:  #3e3148;
+    --third-color: #aa36aa;
+    --font-color: #CEE3E9;
+    --font-family: 'Manrope', sans-serif;;
+}
+
+body {
+    height: 100vh;
+    background: var(--main-color);
+    font-family: var(--font-family);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    min-height: 19.6875rem;
+    width: 100%;
+    max-width: 21.4375rem;
+    background: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.625rem;
+}
+
+.reload-icon {
+    font-size: 24px;  
+    color: var(--main-color);
+  }
+  
+.adivice-box {
+    width: 100%;
+    max-width: 18.4375rem;
+    min-height: 8.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.img-box {
+    background: url(./images/pattern-divider-mobile.svg);
+    height: 1rem;
+    width: 18.4375rem;
+    margin-top: 1.5rem;
+}
+
+button {
+    position: absolute;
+    top: 17.6875rem;
+    height: 4rem;
+    width: 4rem;
+    background: var(--third-color);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    button:hover,
+    button:active {
+        box-shadow: 0px 0px 40px var(--third-color);
+        cursor: pointer;
+    }
+    
+
+h1 {
+    font-size: 0.6875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--third-color);
+    line-height: 0.9375rem;
+    letter-spacing: 3.46px;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.04875rem;
+    letter-spacing: -0.26px;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width:800px){
+    main {
+        min-height: 20.75rem;
+        width: 100%;
+        max-width: 33.75rem;
+    }
+
+    .adivice-box {
+        max-width: 27.75rem;
+        height: 7.125rem;
+    }
+
+    .img-box {
+        margin-bottom: 2.5rem;
+    }
+
+    button {
+        top: 18.75rem;
+    }
+
+    h1 {
+        font-size: 0.8125;
+    }
+
+    p {
+        font-size: 1.75rem;
+        width: 27.75rem;
+    }
+}
+
