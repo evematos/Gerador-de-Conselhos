@@ -1,14 +1,13 @@
-# Gerador De Conselhos
+# Gerador de Conselhos
 
-Projeto com uma tela de exibição de conselhos diversos. Aproveite de mais de 200 conselhos apenas com um clique.
+Gerador de conselhos criado com HTML, CSS e JavaScript. Feito para mostrar frases motivacionais e inspiradoras com apenas um clique.
 
-<br>
 
-<h3>Inicie com um conselho especial</h3>
-![image](https://github.com/evematos/Gerador-de-Conselhos/assets/121374911/81fdb55b-723c-4fa4-b8aa-9a80a18ffe2a)
+## 🟣 Comece com um conselho especial
 
-<br>
-<br>
-<h3>E aproveite 200+ conselhos</h3>
-<br>
-![image](https://github.com/evematos/Gerador-de-Conselhos/assets/121374911/1f572177-4185-400a-bd39-1faa60cc6748)
+![image](https://github.com/evematos/Gerador-de-Conselhos/assets/121374911/b7b5ffd1-7dd1-4020-8935-5db0fdb81cf7)
+
+## 🟣 E desfrute de 200+ conselhos
+
+![image](https://github.com/evematos/Gerador-de-Conselhos/assets/121374911/b4bdec43-715c-4b18-87f9-3acde48bf914)
+
